@@ -1,5 +1,5 @@
 ! Title: Anti-Addiction list
-! Disclaimer: Some are written by others.
+! Disclaimer: I have gotten help on the /r/uBlockOrigin subreddit forum with some of the filters.
 ! Modified: 2025-08-28 23:40 GMT+1
 
 ! youtube.com
