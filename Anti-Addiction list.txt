@@ -1,0 +1,30 @@
+! Title: Anti-Addiction list
+! Disclaimer: Some are written by others.
+! Modified: 2025-08-28 23:40 GMT+1
+
+! youtube.com
+! Hides anything that is considered addictive or is engineered to make the user want to stay more than they need to.
+m.youtube.com##.YtmPaidContentOverlayText > .yt-core-attributed-string--white-space-pre-wrap.yt-core-attributed-string
+m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(2)
+m.youtube.com##.modern-styling
+m.youtube.com##.related-items-container
+www.youtube.com###related
+www.youtube.com###comments
+m.youtube.com##.full-bleed-wn-thumbs.watch-content > .single-column-watch-next-modern-panels.scwnr-content
+m.youtube.com##.mobile-topbar-header-sign-in-button
+m.youtube.com##.cbox.slim-owner-subscribe-button
+m.youtube.com##.yt-flexible-actions-view-model-wiz.page-header-view-model-wiz__page-header-flexible-actions
+m.youtube.com##ytm-slim-video-action-bar-renderer
+m.youtube.com##.feed-nudge-wrapper
+m.youtube.com##.search-bar-entry-point-more-drawer-button.search-bar-entry-point-button
+m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(3)
+m.youtube.com##.ytmPaidContentOverlayHost
+m.youtube.com##.ytVideoMetadataCarouselViewModelHost
+
+! reddit.com
+! Hides Voting buttons and numbers
+reddit.com##[data-post-click-location="vote"],[slot="vote-button"]
+
+! x.com
+! Hides Retweet, Like and Statistics buttons and numbers
+x.com##[role="group"]>div>:is([data-testid="retweet"],[data-testid="like"],[href$="/analytics"])
