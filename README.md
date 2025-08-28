@@ -1,4 +1,4 @@
-# Anti-Addiction Filterlist
+# Anti-Addiction List
 
 This filterlist project is for anyone who has removed their social media apps from their devices and switched to using the respective websites instead but also don't want to have any of the addictive elements of their website they use.
 Such as votes, likes, resharing, related videos, YouTube comments, YouTube Shorts to name a few.
