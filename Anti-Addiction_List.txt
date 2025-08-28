@@ -1,4 +1,4 @@
-! Title: Anti-Addiction list
+! Title: Anti-Addiction List
 ! Disclaimer: I have gotten help on the /r/uBlockOrigin subreddit forum with some of the filters.
 ! Modified: 2025-08-28 23:40 GMT+1
 
@@ -26,5 +26,5 @@ m.youtube.com##.ytVideoMetadataCarouselViewModelHost
 reddit.com##[data-post-click-location="vote"],[slot="vote-button"]
 
 ! x.com
-! Hides Retweet, Like and Statistics buttons and numbers
-x.com##[role="group"]>div>:is([data-testid="retweet"],[data-testid="like"],[href$="/analytics"])
+! Hides Reply, Retweet, Like Bookmark and Statistics buttons and numbers
+x.com##[role="group"]>div>:is([data-testid="reply"],[data-testid="retweet"],[data-testid="like"],[data-testid="bookmark"],[href$="/analytics"])
